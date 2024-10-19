@@ -2,6 +2,8 @@
 
 <mat-divider></mat-divider>
 
+<!-- ! Angular Introduction -->
+
 <mat-accordion>
     <mat-expansion-panel class="expansion--panel">
       <mat-expansion-panel-header class="expansion--header">
@@ -41,11 +43,58 @@
     </mat-expansion-panel>
 </mat-accordion>
 
+<!-- ! Angular Files and folder structure -->
+ 
 <mat-accordion>
     <mat-expansion-panel class="expansion--panel">
-        <mat-expansion-panel-header class="expansion--header">02.File and Folder structure</mat-expansion-panel-header>
+        <mat-expansion-panel-header class="expansion--header">2.File and Folder structure</mat-expansion-panel-header>
         <h3>node_modules : </h3>
         <p>The node_modules folder contains all the third party libraries which are used to build our Angular Application.</p>
+
+        <h3>package.json</h3>
+        <p>The package.json file contains all the list of third party dependencies which are helpfull to build and run the Angular application.</p>
+
+        <h3>.editorconfig</h3>
+        <p>The .editorconfig file is used to define the environment coding standards which are followed by all developers.</p>
+
+        <h3>.gitignore</h3>
+        <p>The .gitignore file is used to listout the files and folders which we want to exclude while code checkin onto the github.</p>
+
+        <h3>angular.json</h3>
+        <p>The angular.json file is used to define the entire application configurations, like entry point, index, styles, scripts, etc.</p>
+    
+        <h3>package-lock.json</h3>
+        <p>The package-lock.json file records the exact version of every installed dependency with it's version and sub dependency along with its version. The package-lock.json file is responsible to install same versions of dependencies throughout all environments.</p>
+    
+        <h3>tsconfig.json</h3>
+        <p>The tsconfig.json file contains bunch of settings for typescript compiler, based on this settings the typescript compiler compiles typescript code JavaScript code which browser can understand.</p>
+    
+        <h3>index.html</h3>
+        <p>The index.html is the main html file, which was render on to the browser.</p>
+    
+        <h3>main.ts</h3>
+        <p>The main.ts file which is the starting point of the angular application, the bootstrapping process of the angular application will start at this file.</p>
+    
+        <h3>styles.css</h3>
+        <p>The styles.css file is used to define the global styles of the angular application.</p>
+    
+        <h3>What is Webpack?</h3>
+        <p>The webpack is used to bundle the JavaScript files and other files into one or more JavaScript bundles.</p>
+    
+        <h3>What are the files injected into the index.html while building the Angular Application?</h3>
+        <p><strong>runtime.js ----- webpack runtime file.</strong></p>
+        <p><strong>polyfills.js ----- polyfills scripts which are supported to verity of modern browsers.</strong></p>
+        <p><strong>main.js ----- The main.js is the code of the application.</strong></p>
+        <p><strong>vendor.js ----- The vendor.js contains scripts from the angular/core library and all the third party libraries which are helpfull to build and run the angular application.</strong></p>
+        <p><strong>styles.js ----- It contains all the styles of the angular application.</strong></p>
+
+        <h3>***What is the Difference between TypeScript and JavaScript?</h3>
+        <p>TypeScript is a strongly typed programming language but JavaScript is a dynamically typed programming language.</p>
+        <p>TypeScript have few Object oriented features which we donot have in JavaScript like <strong>interfaces, access modifiers, generics, etc.</strong></p>
+        <p>In TypeScript we can catch errors at compile time insted of runtime.</p>
+
     </mat-expansion-panel>
+
+   
 </mat-accordion>
 
