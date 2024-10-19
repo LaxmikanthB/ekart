@@ -1,0 +1,28 @@
+h3 {
+     color : red;
+    //  padding : 0px 10px;
+}
+
+// * {
+//     padding: 0px 10px;
+// }
+
+h1 {
+    color : green;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.expansion--header {
+    height: 40px !important;
+    font-weight: bolder;
+    border: black 1px solid;
+    border-radius: 0;
+    background-color:gray !important;
+}
+
+.expansion--panel {
+    border: black 1px solid;
+    margin : 10px;
+    background-color:antiquewhite;
+}
